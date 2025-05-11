@@ -98,7 +98,7 @@ export default function BirthdayPage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="text-2xl text-white  max-w-xl mt-6 md:mt-0"
+          className="text-2xl to-purple-600  max-w-xl mt-6 md:mt-0"
         >
           <Typewriter
             words={[
