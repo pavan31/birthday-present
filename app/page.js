@@ -49,7 +49,7 @@ export default function Home() {
         onClick={handleStart}
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.1, duration: 1.2, ease: 'easeOut' }}
+        transition={{ delay: 1.1, duration: 1, ease: 'easeOut' }}
         whileHover={{
           scale: 1.08,
           textShadow: '0px 0px 8px rgba(255,255,255,0.8)',
@@ -58,7 +58,7 @@ export default function Home() {
         whileTap={{
           scale: 0.95,
         }}
-        className="mt-10 px-8 py-3 bg-pink-500 text-white text-lg rounded-full shadow-lg hover:bg-pink-600 transition z-10"
+        className="mt-10 px-8 py-3 bg-pink-500 cursor-pointer text-white text-lg rounded-full shadow-lg hover:bg-pink-600 transition z-10"
       >
         Accept the Challenge
       </motion.button>

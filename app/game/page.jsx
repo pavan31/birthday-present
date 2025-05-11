@@ -125,7 +125,7 @@ export default function GamePage() {
       {/* Full screen transition overlay */}
       {gameCompleted && (
         <motion.div
-          className="absolute top-0 left-0 w-full h-full bg-white opacity-90 flex items-center justify-center z-50"
+          className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pink-100 via-purple-200 to-blue-100 opacity-90 flex items-center justify-center z-50"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
